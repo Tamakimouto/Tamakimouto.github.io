@@ -39,7 +39,7 @@ const styles = {
         width: "100vw",
         zIndex: 2,
         [theme.breakpoints.down("md")]: {
-            backgroundSize: "70vw",
+            backgroundSize: "115vw",
         },
     }),
     content: {
