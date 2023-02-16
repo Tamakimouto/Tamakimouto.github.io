@@ -29,7 +29,7 @@ const styles = {
         justifyContent: "center",
         overflow: "hidden",
     },
-    cloudSplash: {
+    cloudSplash: (theme) => ({
         position: "absolute",
         backgroundImage: `url(${foregroundTop}), url(${foregroundBot})`,
         backgroundPositionX: "left",
@@ -38,7 +38,10 @@ const styles = {
         height: "100vh",
         width: "100vw",
         zIndex: 2,
-    },
+        [theme.breakpoints.down("md")]: {
+            backgroundSize: "70vw",
+        },
+    }),
     content: {
         backgroundImage: `url(${paperTopLeft}), url(${paperTopRight}), url(${paperTop}),
            url(${paperBotLeft}), url(${paperBotRight}), url(${paperBot}),
