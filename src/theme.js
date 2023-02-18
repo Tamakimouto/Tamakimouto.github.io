@@ -8,6 +8,7 @@ const theme = createTheme({
             md: 1000,
             lg: 1200,
             xl: 1536,
+            xxl: 2800,
         },
     },
     palette: {

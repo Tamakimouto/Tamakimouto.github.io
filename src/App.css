@@ -7,3 +7,14 @@
     font-family: "ZinHena";
     src: url(./fonts/ZinHena.ttf) format("truetype");
 }
+
+body {
+    font-family: "Otsutome";
+    background-color: #1b3853;
+    background-image: linear-gradient(to bottom, #080808, #0d0d0d, transparent);
+}
+
+.App {
+    background-color: #1b3853;
+    background-image: linear-gradient(to bottom, #080808, #0d0d0d, transparent);
+}
